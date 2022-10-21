@@ -1,0 +1,40 @@
+header h2{
+    display: flex;
+    justify-content: center;
+    margin: 3em auto;
+}
+
+.choices{
+    display:flex ;
+    gap: 1%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.choice{
+    border-radius: 10px;
+    border: none;
+    cursor:pointer;
+    font-size: 10em;
+    background-color: transparent;
+}
+
+.choice:hover{
+    background-color: rgb(215, 27, 27);
+}
+
+.result{
+    border-radius: 10em;
+    
+    justify-items: center;
+    margin: 0 auto;
+    
+}
+
+#demo{
+font-size:4em ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 600;
+text-align: center;
+}
